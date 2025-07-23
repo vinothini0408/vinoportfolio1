@@ -1,8 +1,12 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 function Header() {
   return (
-    <header
+    <motion.header
+      initial={{ y: -50, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8 }}
       style={{
         position: 'sticky',
         top: 0,
@@ -23,7 +27,7 @@ function Header() {
         <a href="#projects" style={linkStyle}>Projects</a>
         <a href="#contact" style={linkStyle}>Contact</a>
       </nav>
-    </header>
+    </motion.header>
   );
 }
 
