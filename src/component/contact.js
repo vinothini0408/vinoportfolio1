@@ -15,13 +15,26 @@ function Contact() {
         textAlign: "center",
       }}
     >
-      <h2 style={{ fontSize: "2rem", color: "#831843" }}>Contact Me</h2>
-      <p>You can reach me at:</p>
-      <p style={{ fontWeight: "bold" }}>📧 vinothini4.slm@gmail.com</p>
-      <p style={{ fontWeight: "bold" }}>📱 9942125687</p>
-      <p>📍 Salem, Tamil Nadu</p>
+      <h2 style={{ fontSize: "2rem", color: "#831843", marginBottom: "20px" }}>
+        📬 Contact Me
+      </h2>
+      <p style={{ fontSize: "1.1rem", color: "#374151" }}>
+        Feel free to reach out to me via email or phone:
+      </p>
+
+      <p style={infoStyle}>📧 <strong>vinothini4.slm@gmail.com</strong></p>
+      <p style={infoStyle}>📱 <strong>99421 25687</strong></p>
+      <p style={{ marginTop: "10px", fontSize: "1rem", color: "#475569" }}>
+        📍 Salem, Tamil Nadu, India
+      </p>
     </motion.section>
   );
 }
+
+const infoStyle = {
+  marginTop: "10px",
+  fontSize: "1.1rem",
+  color: "#1f2937"
+};
 
 export default Contact;

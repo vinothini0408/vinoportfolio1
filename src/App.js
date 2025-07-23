@@ -1,19 +1,19 @@
 import React from "react";
 import Header from "./component/header";
 import Home from "./component/home";
-import About from "./component/about"
+import About from "./component/about";
 import Project from "./component/project";
 import Contact from "./component/contact";
 
-function App(){
+function App() {
   return (
-<div>
-  <Header/>
-  <Home />
-  <About/>
-  <Project/>
-  <Contact/>
-</div>
+    <div>
+      <Header />
+      <Home />
+      <About />
+      <Project />
+      <Contact />
+    </div>
   );
 }
 

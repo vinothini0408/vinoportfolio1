@@ -1,6 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+const linkStyle = {
+  marginLeft: '20px',
+  color: '#fff',
+  textDecoration: 'none',
+  fontWeight: '500',
+  cursor: 'pointer',
+};
+
 function Header() {
   return (
     <motion.header
@@ -30,14 +38,5 @@ function Header() {
     </motion.header>
   );
 }
-
-// shared link style
-const linkStyle = {
-  marginLeft: '20px',
-  color: '#fff',
-  textDecoration: 'none',
-  fontWeight: '500',
-  cursor: 'pointer'
-};
 
 export default Header;
