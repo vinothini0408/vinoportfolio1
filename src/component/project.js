@@ -51,7 +51,7 @@ function Project() {
           <li>Deployed using GitHub Pages</li>
         </ul>
         <p><strong>Tech Stack:</strong> React.js, Inline CSS</p>
-        <p><strong>Status:</strong> Ongoing</p>
+        
       </div>
     </motion.section>
   );

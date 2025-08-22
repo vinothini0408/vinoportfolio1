@@ -38,9 +38,10 @@ function About() {
         Core Java (Futogen), MySQL (Futogen), Full Stack Developer (Crampet)
       </p>
 
+      {/* ✅ Working Download Resume Button */}
       <a
-        href={`${process.env.PUBLIC_URL}/Vinothini_Resume.pdf`}
-        download
+        href="/resume.pdf"
+        download="VinothiniNallathambi_Resume.pdf"
         style={{
           display: 'inline-block',
           padding: '12px 24px',
