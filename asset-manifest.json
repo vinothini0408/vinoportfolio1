@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vinoportfolio1/static/css/main.577606f8.css",
-    "main.js": "/vinoportfolio1/static/js/main.1f1e14d4.js",
+    "main.js": "/vinoportfolio1/static/js/main.c88486a0.js",
     "static/media/vino.jpg": "/vinoportfolio1/static/media/vino.827bd7974aa37cf79e9d.jpg",
     "index.html": "/vinoportfolio1/index.html",
     "main.577606f8.css.map": "/vinoportfolio1/static/css/main.577606f8.css.map",
-    "main.1f1e14d4.js.map": "/vinoportfolio1/static/js/main.1f1e14d4.js.map"
+    "main.c88486a0.js.map": "/vinoportfolio1/static/js/main.c88486a0.js.map"
   },
   "entrypoints": [
     "static/css/main.577606f8.css",
-    "static/js/main.1f1e14d4.js"
+    "static/js/main.c88486a0.js"
   ]
 }
